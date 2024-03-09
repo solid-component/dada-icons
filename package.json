@@ -1,0 +1,39 @@
+{
+  "name": "solid-dada-icons",
+  "keywords": [
+    "solid",
+    "icon",
+    "component"
+  ],
+  "homepage": "https://github.com/solid-component/dada-icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/solid-component/dada-icons"
+  },
+
+  "files": [
+    "dist",
+    "package.json",
+    "README.md",
+    "lib",
+    "types"
+  ],
+  "version": "0.0.0-beta",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "solid-js": "^1.8.15"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.1.4",
+    "vite-plugin-dts": "^3.7.3",
+    "vite-plugin-solid": "^2.10.1"
+  }
+}
